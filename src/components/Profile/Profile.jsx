@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import css from "./Profile.module.css";
 
 const Profile = ({
@@ -37,14 +36,5 @@ const Profile = ({
 </div>
   )
 };
-
-Profile.propTypes = {
-  username: PropTypes.string,
-  tag: PropTypes.string,
-  location: PropTypes.string,
-  image: PropTypes.string,
-  stats: PropTypes.objectOf(PropTypes.number),
-};
-
 
 export default Profile;
