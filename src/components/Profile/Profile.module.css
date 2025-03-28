@@ -1,0 +1,73 @@
+.card {
+  width: 350px;
+  height: 100%;
+
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+
+  background-color: #f3f2f2;
+
+  margin: 0 auto;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 100px;
+  background-color: #292929;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.userTitle {
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.userInfo {
+  color: gray;
+  font-size: 16px;
+  margin: 2px 0;
+}
+
+.statsList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dcdcdc;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid gray;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 2px solid gray;
+}
+
+.statLabel {
+  display: block;
+  font-size: 14px;
+  color: black;
+}
+
+.statValue {
+  font-weight: 700;
+  font-size: 16px;
+}
