@@ -1,7 +1,7 @@
 import css from "./Profile.module.css";
 
 const Profile = ({
-  username,
+  name,
   tag,
   location,
   image,
@@ -14,7 +14,7 @@ const Profile = ({
       src={image}
       alt="User avatar"
     />
-    <p className={css.userTitle}>{username}</p>
+    <p className={css.userTitle}>{name}</p>
     <p className={css.userInfo}>{tag}</p>
     <p className={css.userInfo}>{location}</p>
   </div>
